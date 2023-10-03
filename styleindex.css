@@ -1,0 +1,144 @@
+/* Reset des marges et des paddings */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F0E5; /* Fond */
+}
+
+/* Styles pour les divs */
+.section {
+    background-color: #EADBC8; /* Couleur de fond pour les divs */
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #DAC0A3; /* Bordure */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Effet de survol sur les boîtes */
+.section:hover {
+    transform: scale(0.99) rotate(2deg); /* Ajustez la valeur de rotation selon vos préférences */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style pour les images à l'intérieur des sections */
+.section img {
+    max-width: 100%; /* Réduit la taille des images pour qu'elles s'ajustent aux sections */
+    height: auto; /* Maintient le rapport hauteur/largeur des images */
+}
+
+/* Style de base pour le tableau */
+table {
+    border-collapse: separate; /* Ajoute de l'espace entre les cellules */
+    border-spacing: 10px; /* Espacement entre les cellules du tableau */
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Style pour les cellules du tableau */
+table td {
+    padding: 20px;
+    text-align: center;
+    background-color: #EADBC8; /* Couleur de fond pour les cellules */
+    color: #0F2C59; /* Couleur du texte */
+    border: 1px solid #DAC0A3; /* Bordure */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Effet de survol sur les cellules du tableau */
+table td:hover {
+    transform: scale(0.99) rotate(2deg); /* Légère rotation au survol */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style pour les liens */
+a {
+    text-decoration: none;
+    color: #0F2C59; /* Couleur des liens par défaut */
+    transition: color 0.2s ease-in-out;
+}
+
+/* Effet de survol sur les liens */
+a:hover {
+    color: #004478; /* Couleur des liens au survol */
+}
+
+/* Style pour la taille maximale des images à l'intérieur des cellules */
+.table-cell img {
+    max-width: 100%; /* Largeur maximale de l'image à 100% de la largeur de son conteneur */
+    max-height: 40px; /* Hauteur maximale de l'image à 40 pixels (ajustez selon vos besoins) */
+}
+
+.service {
+    background-color: #EADBC8;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #DAC0A3;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.service:hover {
+    transform: scale(0.99);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.service h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+}
+
+.small-image {
+    max-width: 200px; /* Ajustez la largeur maximale selon vos besoins */
+    height: auto;
+}
+
+.tableau {
+    border-collapse: separate; /* Ajoute de l'espace entre les cellules */
+    border-spacing: 10px; /* Espacement entre les cellules du tableau */
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Style pour les cellules du tableau sans rotation */
+.tableau td {
+    padding: 20px;
+    text-align: center;
+    background-color: #EADBC8; /* Couleur de fond pour les cellules */
+    color: #0F2C59; /* Couleur du texte */
+    border: 1px solid #DAC0A3; /* Bordure */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Effet de survol sur les cellules du tableau sans rotation */
+.tableau td:hover {
+    transform: scale(0.99); /* Suppression de la rotation */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style pour les liens du tableau sans rotation */
+.tableau a {
+    text-decoration: none;
+    color: #0F2C59; /* Couleur des liens par défaut */
+    transition: color 0.2s ease-in-out;
+}
+
+/* Effet de survol sur les liens du tableau sans rotation */
+.tableau a:hover {
+    color: #004478; /* Couleur des liens au survol */
+}
